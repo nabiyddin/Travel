@@ -1,0 +1,125 @@
+#hero {
+  background: url("../../images/hero-image.png");
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  .hero-texts {
+    padding-top: 285px;
+    padding-left: 115px;
+    width: 55%;
+    h1 {
+      color: var(--dark-black-color);
+      font-size: 84px;
+      line-height: 112px;
+      font-weight: 700;
+    }
+
+    .hero-btn {
+      margin-top: 50px;
+      padding: 18px 36px;
+      border: none;
+      color: var(--white-color);
+      background: var(--orange-color);
+      cursor: pointer;
+      transition: all 0.5s ease;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 500;
+    }
+
+    .hero-btn:hover {
+      color: var(--orange-color);
+      background: var(--white-color);
+      background: var(--blue-color);
+      color: white;
+    }
+  }
+
+  .hero-content {
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: absolute;
+    top: 923px;
+    right: 0;
+    background: var(--white-color);
+    box-shadow: 0px 10px 30px 5px #dbc8c533;
+    width: 69%;
+
+    .content-title {
+      width: 100%;
+      p {
+        color: var(--gray-color);
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+      }
+
+      .content-subtitle {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--orange-color);
+        border-bottom: 1px solid #f5ebe9;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 600;
+      }
+    }
+
+    .content-btn {
+      padding: 20px 37px;
+      border: none;
+      color: var(--white-color);
+      background: var(--orange-color);
+      cursor: pointer;
+      transition: all 0.5s ease;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 500;
+      width: 80%;
+    }
+
+    .content-btn:hover {
+      color: var(--orange-color);
+      background: var(--white-color);
+      background: var(--blue-color);
+      color: white;
+    }
+  }
+
+  .arrows-wrapper {
+    position: absolute;
+    top: 103%;
+    left: 0;
+    display: flex;
+    align-items: center;
+
+    .svg-wrapper {
+      display: flex;
+      gap: 20px;
+    }
+
+    .arrow-line {
+      margin: 0 30px;
+      width: 234px;
+      height: 2px;
+      background: #f5ebe9;
+    }
+
+    span {
+      color: var(--orange-color);
+      font-family: var(--noto-serif-font);
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: 500;
+    }
+  }
+}

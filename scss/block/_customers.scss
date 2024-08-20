@@ -1,0 +1,136 @@
+#customers {
+  padding: 200px 191px 0 161px;
+  margin-bottom: 200px;
+  position: relative;
+
+  h1 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 100px auto;
+    font-size: 48px;
+    line-height: 66px;
+    font-weight: 800;
+    color: var(--dark-black-color);
+    font-family: var(--noto-serif-font);
+  }
+
+  .content {
+    width: 50%;
+    height: 513px;
+    margin: 0 auto;
+    position: relative;
+    padding: 70px 60px;
+    box-shadow: 0px 20px 30px 0px #e3caca4d;
+
+    .content-img-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: 63%;
+      margin: 0 auto;
+
+      .content-title {
+        font-weight: 700;
+
+        h2 {
+          font-size: 24px;
+          line-height: 33px;
+          font-family: var(--noto-serif-font);
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 22px;
+          text-align: start;
+          color: var(--orange-color);
+          font-family: var(--product-font);
+        }
+      }
+    }
+
+    .paragraf {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 36px;
+      margin: 50px auto;
+      text-align: center;
+      color: var(--gray-color);
+      font-family: var(--product-font);
+    }
+
+    svg {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .line {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 11px;
+      background: var(--orange-color);
+      left: 0;
+    }
+
+    .round {
+      position: absolute;
+      top: 380px;
+      right: -100px;
+      z-index: -1;
+      width: 242px;
+      height: 242px;
+      border-radius: 50%;
+      background: #fff8f8;
+    }
+  }
+
+  .img-blue {
+    position: absolute;
+    top: 442px;
+    right: 190px;
+  }
+
+  .img-yellow {
+    position: absolute;
+    top: 622px;
+    right: 330px;
+  }
+
+  .img-green {
+    position: absolute;
+    top: 817px;
+    right: 245px;
+  }
+
+  .img-ink {
+    position: absolute;
+    top: 778px;
+    left: 174px;
+  }
+
+  .img-purple {
+    position: absolute;
+    top: 450px;
+    left: 243px;
+  }
+
+  .img-red {
+    position: absolute;
+    top: 618px;
+    left: 280px;
+  }
+
+  .img-yellow2 {
+    position: absolute;
+    top: 562px;
+    left: 161px;
+  }
+
+  .ellipse36 {
+    position: absolute;
+    top: 165px;
+    left: 137px;
+    width: 172px;
+    height: 172px;
+  }
+}
